@@ -1,0 +1,75 @@
+body {font-family: "Century Gothic", Arial;
+			font-size: 							13pt;}
+			
+h1, h2, h3, {color: 					#000000; }
+
+p		 {margin-left: 						10pt;
+			margin-right: 					10pt;}			
+			
+a			{text-decoration: 			none;
+				color: 								#000000;}
+
+table	{margin-left: 					auto;
+			 margin-right: 					auto;
+			 border-style: 					none;}
+							
+				.menu 									{text-align: center;
+																	 width: 60%;}
+				.menuicon								{width: 23%;}	
+				.menupipe								{width: 1%;}					 
+
+img.align-left  {float: left;
+								 position: 					relative;
+								 border-radius: 		25px;
+								 margin-left:  			5px;
+								 margin-right: 			5px;}	
+	
+img.align-right  {float: right;
+								 position: 					relative;
+								 border-radius: 		25px;
+								 margin-left:  			5px;
+								 margin-right: 			5px;}					 
+				
+
+#menubar {
+background-color: #000000; 
+color: white;
+height: 40px;
+}
+
+.menu0 {
+float: left;
+padding: 0.6em 3em 0.1em 0.5em;
+cursor: default;
+}
+
+.menu0 ul {
+display: none;
+position: absolute;
+background-color: black;
+list-style: none;
+margin: 2px 5px 5px 0px;
+padding: 0.2em;
+}
+
+.menu0 ul li {
+display: block;
+font-size: small;
+padding: 0.2em;
+}
+
+div.menu0:hover ul {
+margin: 0;
+padding: 0;
+display: block;
+background-color: white;
+color: #303032;
+}
+
+div.menu0 ul li:hover {
+background-color: #cccccc;
+}
+
+.whitepipe {
+color: black;
+}		  							
